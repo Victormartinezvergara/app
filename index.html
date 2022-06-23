@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sulap</title>
     <link rel="stylesheet" href="style.css">
-    <script src=" /// widget/ Ug0Q98QJJr " asíncrono></script> 
+    <script src=" /// widget/ Ug0Q98QJJr " asíncrono></script>
 </head>
 <body>
     <header>
@@ -83,43 +83,38 @@
             <div class="container">  
                 <form id="contact" action="https://formsubmit.co/theprimos321@gmail.com" method="post">
                   <h3 style="font-size: 22px; font-weight: 600;">Programe su mensajeria</h3>
-                  <fieldset>
-                    <input placeholder="Ingrese su Nombre" type="text" tabindex="1" required autofocus>
-                  </fieldset>
-                  <fieldset>
-                    <input placeholder="Ingrese su Telefono celular" type="tel" tabindex="2" required>
-                  </fieldset>
-                  <fieldset>
-                    <input placeholder="Ingrese Whatsapp (opcional)" type="tel" tabindex="2">
-                  </fieldset>
-                  <fieldset>
+
+                    <input name="Nombre" placeholder="Ingrese su Nombre" type="text" tabindex="1" required autofocus>
+
+                    <input name="Telefono" placeholder="Ingrese su Telefono celular" type="tel" tabindex="2" required>
+
+                    <input name="Whatsapp" placeholder="Ingrese Whatsapp (opcional)" type="tel" tabindex="2">
+
                     <p>Seleccione la fecha del servicio</p>
-                    <input type="date" id="start" name="trip-start"
+                    <input type="date" id="start" name="fecha"
          value="2022-01-01"
          min="2022-01-01" max="2022-12-31">
-         <fieldset>
-          <input placeholder="Ingrese dirección recojida" type="text" tabindex="3" required>
-        </fieldset>
+
+          <input name="recojida" placeholder="Ingrese dirección recojida" type="text" tabindex="3" required>
+
                       <p>Selecione hora recojida <i>Recuerda que el mensajero tiene un tiempo de llegada de 30 - 40 miinutos.</i></p>
-         <input type="time" id="appt" name="appt"
+         <input type="time" id="appt" name="hora-recojida"
        min="06:00" max="20:00">
 
-       <fieldset>
-        <input placeholder="Ingrese dirección entrega" type="text" tabindex="4" required>
-      </fieldset>
+
+        <input name="entrega" placeholder="Ingrese dirección entrega" type="text" tabindex="4" required>
+
 
        <p>Selecione hora Entrega</p>
-       <input type="time" id="appt" name="appt"
+       <input type="time" id="appt" name="hora-entrega"
        min="06:00" max="20:00">
        <p>Si desea añadir direcciones nuevas comuniquese con Soporte.</p>
-        </fieldset>
-                  <fieldset>
-                    <textarea placeholder="Describa alguna novedad de la mensajeria" tabindex="5" required></textarea>
-                  </fieldset>
-                  <fieldset>
+
+                    <textarea name="descripcion" placeholder="Describa alguna novedad de la mensajeria" tabindex="5" required></textarea>
+
                       <p>Verifique los datos antes de enviar. <br>una vez envie los datos uno de nuestros domiciliarios se comunicara con usted para validar costo e información. <i>Respondemos en menos de 5 minutos.</i></p>
                     <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Solicitar</button>
-                  </fieldset>
+
                 </form>
               </div>
 
