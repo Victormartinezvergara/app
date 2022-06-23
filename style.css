@@ -233,9 +233,10 @@ nav{
   }
   
   #contact input[type="text"],
-  #contact input[type="email"],
+  #contact input[type="time"],
   #contact input[type="tel"],
-  #contact input[type="url"],
+  #contact input[type="date"],
+  #contact input[type="range"],
   #contact textarea,
   #contact button[type="submit"] {
     font: 400 15px/15px "Roboto", Helvetica, Arial, sans-serif;
@@ -271,9 +272,10 @@ nav{
   }
   
   #contact input[type="text"],
-  #contact input[type="email"],
+  #contact input[type="time"],
   #contact input[type="tel"],
-  #contact input[type="url"],
+  #contact input[type="date"],
+  #contact input[type="range"],
   #contact textarea {
     width: 90%;
     border: 1px solid #ccc;
@@ -284,9 +286,10 @@ nav{
   }
   
   #contact input[type="text"]:hover,
-  #contact input[type="email"]:hover,
+  #contact input[type="time"]:hover,
   #contact input[type="tel"]:hover,
-  #contact input[type="url"]:hover,
+  #contact input[type="date"]:hover,
+  #contact input[type="range"]:hover,
   #contact textarea:hover {
     -webkit-transition: border-color 0.3s ease-in-out;
     -moz-transition: border-color 0.3s ease-in-out;
@@ -344,6 +347,9 @@ nav{
   :-ms-input-placeholder {
     color: rgb(14, 13, 13);
   }
+
+
+
 
 
 
