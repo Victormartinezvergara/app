@@ -360,8 +360,13 @@ nav{
 
 .core{
   position: relative;
+  background-color: white;
   top: 100px;
   justify-content: center;
+  border: 1px solid rgba(156, 156, 156, 0.199);
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgba(155, 154, 154, 0.651);
 }
 
 .co{
@@ -374,12 +379,24 @@ nav{
 }
 
 .co h3{
-  margin: 4px 90px 0px 90px;
-  font-weight: 500;
+  margin: 4px 70px 0px 70px;
+  font-weight: 600;
 }
 
 .co img{
   width: 200px;
+  animation-name: lios;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lios{
+  0%{
+      transform: translateX(0);
+  }
+  50%{
+      transform: translateY(2%);
+  }
 }
 
 .co i{
@@ -398,17 +415,6 @@ nav{
 
 .bajo{
   padding: 16px;
-}
-
-.di{
-  position: relative;
-  top: 126px;
-  text-align: center;
-}
-
-.di img{
-  width: 100px;
-  border-radius: 30%;
 }
 
 
