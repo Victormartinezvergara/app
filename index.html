@@ -90,12 +90,26 @@
                     <input placeholder="Ingrese Whatsapp (opcional)" type="tel" tabindex="2">
                   </fieldset>
                   <fieldset>
-                    <input placeholder="Ingrese dirección recojida" type="text" tabindex="3" required>
-                  </fieldset>
-                  <fieldset>
-                    <input placeholder="Ingrese dirección entrega" type="text" tabindex="4" required>
-                    <p>Si desea añadir direcciones nuevas comuniquese con Soporte.</p>
-                  </fieldset>
+                    <p>Seleccione la fecha del servicio</p>
+                    <input type="date" id="start" name="trip-start"
+         value="2022-01-01"
+         min="2022-01-01" max="2022-12-31">
+         <fieldset>
+          <input placeholder="Ingrese dirección recojida" type="text" tabindex="3" required>
+        </fieldset>
+                      <p>Selecione hora recojida <i>Recuerda que el mensajero tiene un tiempo de llegada de 30 - 40 miinutos.</i></p>
+         <input type="time" id="appt" name="appt"
+       min="06:00" max="20:00">
+
+       <fieldset>
+        <input placeholder="Ingrese dirección entrega" type="text" tabindex="4" required>
+      </fieldset>
+
+       <p>Selecione hora Entrega</p>
+       <input type="time" id="appt" name="appt"
+       min="06:00" max="20:00">
+       <p>Si desea añadir direcciones nuevas comuniquese con Soporte.</p>
+        </fieldset>
                   <fieldset>
                     <textarea placeholder="Describa alguna novedad de la mensajeria" tabindex="5" required></textarea>
                   </fieldset>
