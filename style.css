@@ -25,7 +25,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 2;
-    top: 79px;
+    top: 78px;
     background-color: blue;
     justify-content: center;
     padding: 10px;
@@ -48,7 +48,7 @@ header{
 
 .nuestro{
   position: relative;
-  top: 128px;
+  top: 132px;
   text-align: center;
   color: rgb(77, 76, 76);
 }
@@ -73,6 +73,11 @@ header{
     color: yellow;
 }
 
+.titulo p{
+  margin: 0px 0px 0px 18px;
+  font-size: 11px;
+}
+
 .menu{
     margin: 0px 45px 0px 0px;
 }
@@ -93,7 +98,7 @@ header{
 
 nav{
     position: relative;
-    top: 122px;
+    top: 129px;
     background-color: #f0f0f0d7;
     display: flex;
     flex-wrap: wrap;
@@ -347,9 +352,6 @@ nav{
   :-ms-input-placeholder {
     color: rgb(14, 13, 13);
   }
-
-
-
 
 
 
