@@ -360,13 +360,14 @@ nav{
 
 .core{
   position: relative;
+  padding: 14px 14px 22px 14px;
   background-color: white;
-  top: 100px;
+  top: 94px;
   justify-content: center;
   border: 1px solid rgba(156, 156, 156, 0.199);
-  margin: 10px;
+  margin: 22px;
   border-radius: 8px;
-  box-shadow: 4px 4px 4px rgba(155, 154, 154, 0.651);
+  box-shadow: 4px 4px 4px rgba(155, 154, 154, 0.521);
 }
 
 .co{
