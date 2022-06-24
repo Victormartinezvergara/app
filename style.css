@@ -388,24 +388,8 @@ nav{
   border: 1px solid rgba(50, 63, 250, 0.062);
   border-radius: 5px;
   padding: 12px;
-  box-shadow: -1px 2px 2px 2px rgba(4, 0, 255, 0.205);
   background-color: rgba(211, 210, 210, 0.096);
-  animation-name: lioo;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
 }
-
-@keyframes lioo{
-0%{
-    transform: translateY(-1%);
-    box-shadow: 1px 2px 2px 2px rgba(4, 0, 255, 0.171);
-}
-50%{
-    transform: translateX(0%);
-    box-shadow: 1px 2px 2px 2px white;
-}
-}
-
 
 .co img{
   width: 200px;
