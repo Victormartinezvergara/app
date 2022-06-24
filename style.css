@@ -629,13 +629,13 @@ fieldset {
   width: 60px;
 }
 
-.que p{
-  font-size: 13px;
-}
-
 .que h2{
   font-size: 22px;
   color: rgb(4, 4, 105);
+}
+
+.que p{
+  font-size: 13px;
 }
 
 .que{
@@ -644,6 +644,10 @@ fieldset {
   border: 1px solid rgba(191, 191, 191, 0.377);
   padding: 8px;
   box-shadow: 4px 4px 4px rgba(190, 189, 189, 0.678);
+}
+
+.ini img{
+  width: 65px;
 }
 
 
