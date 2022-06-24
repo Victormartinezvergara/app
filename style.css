@@ -389,7 +389,10 @@ nav{
   border-radius: 5px;
   padding: 12px;
   background-color: rgba(211, 210, 210, 0.096);
+
 }
+
+
 
 .co img{
   width: 200px;
@@ -607,6 +610,36 @@ fieldset {
   color: rgb(14, 13, 13);
 }
 
+
+.aba{
+  position: relative;
+  top: 120px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.nuestro p{
+  margin: 4px;
+}
+
+.que img{
+  width: 40px;
+}
+
+.que h2{
+  font-size: 22px;
+  color: rgb(4, 4, 105);
+}
+
+.que{
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(191, 191, 191, 0.377);
+  padding: 8px;
+  box-shadow: 4px 4px 4px rgba(190, 189, 189, 0.678);
+}
 
 
 
