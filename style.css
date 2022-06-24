@@ -625,7 +625,11 @@ fieldset {
 }
 
 .que img{
-  width: 40px;
+  width: 80px;
+}
+
+.que p{
+  font-size: 13px;
 }
 
 .que h2{
