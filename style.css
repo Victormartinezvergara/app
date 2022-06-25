@@ -635,7 +635,7 @@ fieldset {
 }
 
 .que p{
-  font-size: 13px;
+font-size: 13px;
 }
 
 .que{
@@ -648,6 +648,17 @@ fieldset {
 
 .ini img{
   width: 65px;
+}
+
+.carga{
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+
+.carga h2{
+  color: #aaa;
+  font-weight: 900;
 }
 
 
