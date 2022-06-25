@@ -19,11 +19,11 @@
     </header>
 
     <div class="usuario">
-      <a href="index.html" style="border-bottom: 2px solid yellow;">Inicio<p style="font-size: 11px; color: yellow;">(3)</p></a>
+      <a href="index.html" style="border-bottom: 2px solid yellow;">Inicio<p style="font-size: 11px; color: yellow;"></p></a>
 
-        <a href="">Aliados</a>
+        <a href="aliado.html">Aliados</a>
 
-        <a href="">Novedad<p style="font-size: 11px; color: yellow;">(2)</p></a>
+        <a href="novedad.html">Novedad<p style="font-size: 11px; color: yellow;">(2)</p></a>
     </div>
 
     <div class="nuestro">
@@ -43,7 +43,7 @@
 
         <div class="cuadro">
           <a href="">
-          <h2>Mensajeria</h2>
+          <h2>Mensajería</h2>
           <a href="#IrVentanaFlotante" style="border: 1px solid rgb(25, 0, 255); padding: 4px 70px 4px 70px; border-radius: 6px; font-weight: 600; background-color: blue; color: white;">Solicitar</a>
       </a>
       <div class="hora">
@@ -82,7 +82,7 @@
 
             <div class="container">  
                 <form id="contact" action="https://formsubmit.co/theprimos321@gmail.com" method="POST">
-                  <h3 style="font-size: 22px; font-weight: 600;">Programe su mensajeria</h3>
+                  <h3 style="font-size: 22px; font-weight: 600;">Solicite su mensajería</h3>
 
                     <input name="Mensajeria-Nombre" placeholder="Ingrese su Nombre" type="text" tabindex="1" required autofocus>
 
@@ -90,29 +90,29 @@
 
                     <input name="Whatsapp" placeholder="Ingrese Whatsapp (opcional)" type="tel" tabindex="2">
 
-                    <p>Seleccione la fecha del servicio</p>
+                  <!--  <p>Seleccione la fecha del servicio</p> 
                     <input type="date" id="start" name="fecha"
          value="2022-01-01"
-         min="2022-01-01" max="2022-12-31">
+         min="2022-01-01" max="2022-12-31">-->
 
-          <input name="recojida" placeholder="Ingrese dirección recojida" type="text" tabindex="3" required>
+          <input name="recojida" placeholder="Ingrese Dirección Origen" type="text" tabindex="3" required>
 
-                      <p>Selecione hora recojida <i>Recuerda que el mensajero tiene un tiempo de llegada de 30 - 40 miinutos.</i></p>
+                    <!--  <p>Selecione hora recojida <i>Recuerda que el mensajero tiene un tiempo de llegada de 30 - 40 minutos.</i></p>
          <input type="time" id="appt" name="hora-recojida"
-       min="06:00" max="20:00">
+       min="06:00" max="20:00"> -->
 
 
-        <input name="entrega" placeholder="Ingrese dirección entrega" type="text" tabindex="4" required>
+        <input name="entrega" placeholder="Ingrese Dirección Destino" type="text" tabindex="4" required>
 
 
-       <p>Selecione hora Entrega</p>
+      <!-- <p>Selecione hora Entrega</p>
        <input type="time" id="appt" name="hora-entrega"
-       min="06:00" max="20:00">
-       <p>Si desea añadir direcciones nuevas comuniquese con Soporte.</p>
+       min="06:00" max="20:00">-->
+       <p>Si desea añadir + direcciones comuniquese con Soporte.</p>
 
-                    <textarea name="descripcion" placeholder="Describa alguna novedad de la mensajeria" tabindex="5" required></textarea>
+                    <textarea name="descripcion" placeholder="Describa algunos detalles de la mensajeria" tabindex="5" required></textarea>
 
-                      <p>Verifique los datos antes de enviar. <br>una vez envie los datos uno de nuestros domiciliarios se comunicara con usted para validar costo e información. <i>Respondemos en menos de 5 minutos.</i></p>
+                      <p>Verifique los datos antes de enviar. <br>una vez envie los datos nuestro equipo se comunicara con usted para validar costo e información. <i>Respondemos en menos de 5 minutos.</i></p>
                     <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Solicitar</button>
 
                     <input type="hidden" name="_next" value="https://victormartinezvergara.github.io/app/correcto.html">
@@ -141,7 +141,7 @@
   
               <div class="container1">  
                   <form id="contact" action="https://formsubmit.co/theprimos321@gmail.com" method="POST">
-                    <h3 style="font-size: 22px; font-weight: 600;">Programe su Diligencia</h3>
+                    <h3 style="font-size: 22px; font-weight: 600;">Solicite su Diligencia</h3>
   
                       <input name="Diligencia-Nombre" placeholder="Ingrese su Nombre" type="text" tabindex="1" required autofocus>
   
@@ -149,24 +149,27 @@
   
                       <input name="Whatsapp" placeholder="Ingrese Whatsapp (opcional)" type="tel" tabindex="2">
   
-                      <p>Seleccione la fecha del servicio</p>
-                      <input type="date" id="start" name="fecha"
-           value="2022-01-01"
-           min="2022-01-01" max="2022-12-31">
+                      <!--  <p>Seleccione la fecha del servicio</p> 
+                    <input type="date" id="start" name="fecha"
+         value="2022-01-01"
+         min="2022-01-01" max="2022-12-31">-->
   
-            <input name="recojida" placeholder="Ingrese dirección recojida" type="text" tabindex="3" required>
+            <input name="recojida" placeholder="Ingrese Dirección Origen" type="text" tabindex="3" required>
+
+            <input name="direccion-medio" placeholder="Ingrese Dirección Diligencia" type="text" tabindex="3" required>
   
-                        <p>Selecione hora recojida <i>Recuerda que el mensajero tiene un tiempo de llegada de 30 - 40 miinutos.</i></p>
-           <input type="time" id="appt" name="hora-recojida"
-         min="06:00" max="20:00">
+                        <!--  <p>Selecione hora recojida <i>Recuerda que el mensajero tiene un tiempo de llegada de 30 - 40 minutos.</i></p>
+         <input type="time" id="appt" name="hora-recojida"
+       min="06:00" max="20:00"> -->
   
   
-          <input name="entrega" placeholder="Ingrese dirección entrega" type="text" tabindex="4" required>
+          <input name="entrega" placeholder="Ingrese Dirección Destino" type="text" tabindex="4" required>
+          <p>Si desea añadir + direcciones comuniquese con Soporte.</p>
   
   
-                      <textarea name="descripcion" placeholder="Describa alguna novedad de la Diligencia" tabindex="5" required></textarea>
+                      <textarea name="descripcion" placeholder="Describa algunos detalles de la Diligencia" tabindex="5" required></textarea>
   
-                        <p>Verifique los datos antes de enviar. <br>una vez envie los datos uno de nuestros domiciliarios se comunicara con usted para validar costo e información. <i>Respondemos en menos de 5 minutos.</i></p>
+                        <p>Verifique los datos antes de enviar. <br>una vez envie los datos nuestro equipo se comunicara con usted para validar costo e información. <i>Respondemos en menos de 5 minutos.</i></p>
                       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Solicitar</button>
   
                       <input type="hidden" name="_next" value="https://victormartinezvergara.github.io/app/correcto.html">
@@ -255,10 +258,8 @@
               <img src="ciclismo.gif" alt="">
             </div>
 
-          <h3>Solicitar un servicio nunca habia sido tan facil y tan rapido.</h3>
-            <i>Somos una plataforma que brinda un servicio de mensajeria | diligencias | domicilios.
-              solicita el servicio que desees, lo lanzas a nuestro equipo y espera una llamada o mensaje en menos de 5 minutos
-              del domiciliario que adquirio tu servicio. <h4>Los pagos los proporcionan nuestros domicilairios.</h4>
+          <h3>Solicitar un servicio nunca habia sido tan fácil y rápido.</h3>
+            <i>Somos una plataforma independiente que brinda un servicio de mensajería | diligencias | domicilios.</h4>
             </i>
           
 
