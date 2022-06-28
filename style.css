@@ -376,26 +376,33 @@ nav{
   text-align: center;
 }
 
+.con{
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+
 .co h1{
   color: rgb(2, 2, 114);
   font-weight: 800;
   font-size: 30px;
 }
 
-.co h3{
+.con h3{
   margin: 8px 20px 8px 20px;
-  font-weight: 400;
-  border: 1px solid rgba(50, 63, 250, 0.062);
+  font-weight: 900;
+  border: 1px solid rgba(50, 63, 250, 0.048);
   border-radius: 5px;
   padding: 12px;
-  background-color: rgba(211, 210, 210, 0.096);
-
+  background-color: rgba(211, 210, 210, 0.116);
+  font-size: 15px;
+  color: rgba(68, 68, 68, 0.637);
 }
 
 
 
 .co img{
-  width: 200px;
+  width: 160px;
   animation-name: lios;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -410,9 +417,10 @@ nav{
   }
 }
 
-.co i{
-  color: rgb(2, 2, 114);
-  font-weight: 600;
+.con i{
+  color: rgba(2, 2, 114, 0.822);
+  font-weight: 900;
+  font-size: 15px;
 }
 
 .co a{
@@ -661,5 +669,20 @@ font-size: 13px;
   font-weight: 900;
 }
 
+.boto{
+  text-align: center;
+  position: relative;
+  top: 130px;
+  margin: 5px;
+}
+
+.boto a{
+  background-color: blue;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 10px 40px 10px 40px;
+  border-radius: 10px;
+}
 
 
